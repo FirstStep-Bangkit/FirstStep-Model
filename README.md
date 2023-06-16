@@ -9,7 +9,7 @@ We changed the questions in the data to Indonesian from English. We've also conv
 We visualize to see if the data we have is balanced and how much of each type of MBTI is in the data.
 ## Build Models
 In this model, we use DNN (Deep Neural Network) because the data is categorical. We use three layers with sixteen outputs based on personality classes in the dataset. Next, the model will be compiled using the adam optimizer and the loss will be categorical crossentropy
-## Testing The Model
-We try to make our own simulation to test whether the model we have is good.
+## Refine, Optimize, and Test The Model
+After building models, we evaluate model performance using evaluation metrics and techniques such as encross-validation. Then, We try to make our own simulation to test whether the model we have is good.
 ## Deploying Model
 We save the model using h5 format then convert it using Tensorflow Lite.
