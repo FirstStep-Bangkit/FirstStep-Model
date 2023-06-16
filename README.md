@@ -1,6 +1,7 @@
 # FirstStep-Model
 ## Gathering and Preparing Data
 The data we have obtained comes from the Kaggle website with the data name Personality Classification Data: 16 Personalities. This data consists of 60,000 rows and 62 columns, where 60 columns contain questions and 1 column contains 16 personality types.
+
 Source : https://www.kaggle.com/datasets/anshulmehtakaggl/60k-responses-of-16-personalities-test-mbt
 ## Preprocessing Data
 We changed the questions in the data to Indonesian from English. We've also converted the personality column to a numeric form. Next, we perform checks to ensure that there is no missing or duplicate data.
